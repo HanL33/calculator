@@ -51,7 +51,9 @@ int sub(int number1, int number2)
  
 int multi(int number1, int number2)
 {
-	return number1 / number2;
+	// feature branch로 다시 수정
+	int answer = number1 / number2
+	return answer;
 }
  
 int div(int number1, int number2)
