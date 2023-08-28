@@ -14,7 +14,8 @@ int main(int argc, char* argv[])
 	int number1, number2, result;
 	char operator;
 	
-	printf("수식을 입력해주세요: (예> 1 + 2) ");
+	printf("수식을 입력해주세요 : ");
+
 	scanf("%d %c %d", &number1, &operator, &number2);
 	
 	switch (operator)
